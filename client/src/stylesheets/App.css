@@ -1,0 +1,582 @@
+h1, p, li, button, select {
+  font-family: "Montserrat", system-ui;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+  text-align: left;
+}
+th, td {
+  border: 2px solid #40513B;
+  padding: 10px;
+}
+th {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+/* Add zebra striping */
+tbody tr:nth-child(even) {
+  background-color: #ededed;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.centered-header {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-color: #609966;
+  padding: 5px;
+  margin: 0px;
+  border-color: #40513B;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  height: 50px;
+  cursor: pointer;
+}
+.centered-paragraph {
+  text-align: center;
+  margin: 10px;
+  color: #5a5a5a;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+/* Homepage */
+.homepage {
+  background-color: hsl(100, 59%, 74%);
+}
+.state-outline-container {
+  padding: 0 8%;
+  margin-top: 30px;
+}
+.state-overview-header {
+  display: flex;
+  justify-content: center; /* Centers the content */
+  align-items: center;
+  position: relative;
+}
+.state-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #40513B;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+.us-map-placement {
+  display: flex;
+  justify-content: center;
+}
+
+/* State Page */
+.state-page-container {
+  display: flex;
+  width: 100vw;
+}
+.ok-display { 
+  float: right;
+}
+.ct-display {
+  float: left;
+}
+.state-data-column {
+  width: 58%;
+  padding: 5px;
+  padding-top: 0px;
+  float: left;
+  border-right: solid;
+  border-color: #40513B;
+  overflow-y: auto;
+  box-sizing: border-box;
+  height: calc(100vh - 62px);
+}
+
+/* Back Button */
+.back-button {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 75px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #40513B;
+  background-color: white;
+  font-weight: bold;
+}
+.back-button:hover {
+  background-color: #40513B;
+  color: white;
+}
+
+/* State Page Map */
+.state-map-panel {
+  width: 42vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Choropleth */
+.choropleth-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Aligns buttons to the right horizontally */
+  justify-content: flex-start; /* Keeps buttons at the top */
+  padding-left: 10px;
+  padding-bottom: 43vh;
+}
+.choropleth-legend {
+  width: 175px;
+  border-style: solid;
+  border-color: #40513B;
+  margin-right: 10px;
+  justify-content: left;
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  right: 0.1vw;
+  bottom: 1.2vh;
+}
+.choropleth-legend-heading {
+  text-align: center;
+  color: #40513B;
+  font-size: 18px;
+  text-decoration: underline;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.choropleth-legend-subheading {
+  color: #40513B;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px 5px;
+  text-align: center;
+}
+.choropleth-list {
+  margin: 0px;
+  padding: 10px;
+}
+.choropleth-legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  margin-right: 0px;
+  opacity: 0.8;
+}
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+.racial-menu {
+  position: absolute;
+  padding-left: 15px;
+}
+.racial-button-default {
+  font-size: 11px;
+  width: 60px;
+  height: 20px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.racial-button-selected {
+  width: 60px;
+  height: 20px;
+  border-radius: 15px;
+  margin: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #609966;
+  color: white;
+}
+.racial-button-default:hover, .racial-button-selected:hover {
+  background-color: #9DC08B;
+  color: white;
+  font-weight: bold;
+}
+
+/* Regions and Map Buttons */
+.region-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+.map-button-default {
+  font-size: 14px;
+  width: 90px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.map-button-selected {
+  width: 90px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #609966;
+  color: white;
+}
+.map-button-default:hover, .map-button-selected:hover {
+  background-color: #9DC08B;
+  color: white;
+  font-weight: bold;
+}
+
+/* MCMC Buttons */
+.ensemble-plan-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mc-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.mcmc-button-default {
+  font-size: 14px;
+  width: 116px;
+  height: 40px;
+  border-radius: 15px;
+  margin: 3px;
+}
+.mcmc-button-selected {
+  width: 116px;
+  height: 40px;
+  border-radius: 15px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #609966;
+  color: white;
+}
+.mcmc-button-default:hover, .mcmc-button-selected:hover {
+  background-color: #9DC08B;
+  color: white;
+  font-weight: bold;
+}
+
+/* Map Display */
+.state-map-display {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+.map-outline {
+  height: 75vh;
+  width: 33vw;
+  border-color: #40513B;
+  border-style: solid;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.map-flavor-text {
+  text-align: center;
+  margin: 10px;
+  color: #40513B;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.state-overview {
+  padding: 0px 10px;
+}
+.state-overview-internal {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); /* 8 columns */
+  grid-auto-rows: auto;
+  gap: 5px; 
+  padding: 5px;
+  font-size: 14px;
+}
+.state-statistic-title {
+  font-weight: bold;
+  color: #40513B;
+  text-align: left;
+  grid-column: span 1;
+}
+.state-statistic {
+  text-align: left;
+  grid-column: span 1;
+}
+
+.react-tabs__tab-list {
+  border-color: #40513B !important;
+  border-width: 1px !important;
+}
+.react-tabs__tab {
+  width: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left-style: solid !important;
+  border-style: solid !important;
+  border-color: #40513B !important;
+  border-width: 1px !important;
+  text-align: center;
+  font-weight: bold;
+  color: #40513B;
+  background-color: #f1faee;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+.react-tabs__tab--selected {
+  width: auto;
+  text-align: center;
+  font-weight: bold !important;
+  color: white !important;
+  background-color: #609966 !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #40513B !important;
+}
+.react-tabs__tab:hover {
+  color: white;
+  background-color: #9DC08B;
+}
+.react-tabs__tab--selected:hover {
+  background-color: #40513B !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #40513B !important;
+}
+.ensemble-legend {
+  width: 140px;
+  border-style: solid;
+  border-color: #40513B;
+  margin-right: 10px;
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  right: 44vw;
+  bottom: 3vh;
+  border-width: 1px;
+}
+.ensemble-legend-heading {
+  text-align: center;
+  color: #40513B;
+  font-size: 16px;
+  text-decoration: underline;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.ensemble-legend-subheading {
+  color: #40513B;
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px 5px;
+  text-align: center;
+}
+.ensemble-list {
+  margin: 0px;
+  padding: 10px;
+  font-size: 14px;
+}
+.ensemble-legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  margin-right: 0px;
+}
+
+.overview-graphs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: break-word;
+}
+.graph-region-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.region-header-div {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #40513B;
+}
+.graph-region-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.state-overview-button {
+  position: absolute;
+  top: 0px;
+  left: 10px; /* Keeps button aligned to the left */
+  width: 175px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.state-overview-button:hover {
+  background-color: #609966;
+  color: white;
+}
+.district-details-button {
+  position: absolute;
+  top: 0px;
+  right: 10px; /* Keeps button aligned to the left */
+  width: 130px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.district-details-button:hover {
+  background-color: #609966;
+  color: white;
+}
+
+.ei-buttons {
+  max-width: fit-content;
+  margin: auto;
+}
+.ei-button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.ei-compare-select {
+  display: flex;
+  justify-content: center;
+  color: #40513B;
+  font-weight: bold;
+}
+.ei-select {
+  margin-left: 10px;
+}
+.ei-option-button {
+  position: absolute;
+  top: 0px;
+  left: 10px; /* Keeps button aligned to the left */
+  width: auto;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.ei-option-button:hover {
+  background-color: #609966;
+  color: white;
+}
+.ei-table-button {
+  position: absolute;
+  top: 0px;
+  right: 10px; /* keep button aligned to the right */
+  width: auto;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.ei-table-button:hover {
+  background-color: #609966;
+  color: white;
+}
+
+.popup-style {
+  color: #40513B;
+  font-size: 18px;
+}
+.popup-style {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #40513B;
+}
+.districtDetailsNumber {
+  text-decoration: underline;
+  text-align: center;
+}
+.districtDetailsNumber:hover {
+  cursor: pointer;
+}
+.districtDetailsText {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.districtDetailsCentered {
+  text-align: center;
+}
+.precinctDetailClose {
+  position: fixed;
+  top: 0.25vh;
+  right: 10.5vw;
+  height: 36px;
+  width: 36px;
+  font-size: 25px;
+  border-radius: 18px;
+  margin: 5px;
+}
+.precinctDetailClose:hover {
+  background-color: #609966;
+  color: white;
+}
+#cdPlan, #districtDetails{
+  max-width: 65vw;
+  max-height: 90vh;
+  border-radius: 25px;
+  border-color: #40513B;
+}
+#precinctDetails {
+  width: 75vw;
+  height: 90vh;
+  border-radius: 25px;
+  border-color: #40513B;
+}
+#viewcdplan {
+  color: black;
+}
+#viewdistrictdetails {
+  color: #40513B;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 6px;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+  border: 2px solid transparent; 
+  background-clip: padding-box;
+}
+
+/* Style the scrollbar when hovered */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Optional: Style the scrollbar track (background area) */
+::-webkit-scrollbar-track {
+  background: #dfdfdf;
+  border-radius: 10px;
+  margin-block: 1.5em;
+}
+
+
+#planinfo {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  color: #40513B;
+}

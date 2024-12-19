@@ -1,0 +1,30 @@
+{
+    "ct": {
+      "drawingProcess": "Congressional District lines are drawn by the state legislature. If the state legislature cannot pass a plan with 2/3 majority in each legislative chamber, lines are drawn by a nine-member backup commission. If the backup commission does not succeed in creating a plan, the State Supreme Court appoints a Special Master to draw the maps. In 2000, the map was drawn by the backup commission, and in 2010 and 2020 the map was drawn by a Special Master. The Democratic Party has control of the state legislature.",
+      "totalPop": "3,605,944",
+      "votingPop": "2,869,227",
+      "popDensity": "745 people/sq mi",
+      "politicalLean": "Democratic",
+      "medianIncome": "$79,855",
+      "povertyRate": "9.8%",
+      "percentRural": "12%",
+      "percentSuburb": "52.8%",
+      "percentUrban": "35.2%",
+      "districts": "5 (5 Dem. - 0 Rep.)",
+      "precincts": "741"
+    },
+    "ok": {
+      "drawingProcess": "Congressional District lines are drawn by the state legislature, subject to gubernatorial veto. The Republican Party has control of the state legislature.",
+      "totalPop": "3,959,353",
+      "votingPop": "3,010,698",
+      "popDensity": "58 people/sq mi",
+      "politicalLean": "Republican",
+      "medianIncome": "$53,840",
+      "povertyRate": "15.3%",
+      "percentRural": "33.8%",
+      "percentSuburb": "26.5%",
+      "percentUrban": "39.7%",
+      "districts": "5 (0 Dem. - 5 Rep.)",
+      "precincts": "1,937"
+    }
+}

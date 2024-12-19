@@ -1,0 +1,136 @@
+{
+    "ct": {
+      "1": {
+        "number": "1st",
+        "representative": "John B. Larson",
+        "repParty": "Democratic",
+        "repRace": "White",
+        "ahi": "$83,329",
+        "poverty": "9.2%",
+        "rural": "6.06%",
+        "suburban": "37.58%",
+        "urban": "56.36%",
+        "vote": "61% - 37%",
+        "geoid": "0901"
+      },
+      "2": {
+        "number": "2nd",
+        "representative": "Joe Courtney",
+        "repParty": "Democratic",
+        "repRace": "White",
+        "ahi": "$94,194",
+        "poverty": "13.3%",
+        "rural": "33.23%",
+        "suburban": "27.1%",
+        "urban": "40.66%",
+        "vote": "58% - 40%",
+        "geoid": "0902"
+      },
+      "3": {
+        "number": "3rd",
+        "representative": "Rosa DeLauro",
+        "repParty": "Democratic",
+        "repRace": "White",
+        "ahi": "$81,637",
+        "poverty": "24.4%",
+        "rural": "3.3%",
+        "suburban": "38.68%",
+        "urban": "58.02%",
+        "vote": "57% - 41%",
+        "geoid": "0903"
+      },
+      "4": {
+        "number": "4th",
+        "representative": "Jim Himes",
+        "repParty": "Democratic",
+        "repRace": "White",
+        "ahi": "$117,299",
+        "poverty": "7.3%",
+        "rural": "4.24%",
+        "suburban": "38.3%",
+        "urban": "57.46%",
+        "vote": "62% - 36%",
+        "geoid": "0904"
+      },
+      "5": {
+        "number": "5th",
+        "representative": "Jahana Hayes",
+        "repParty": "Democratic",
+        "repRace": "Black",
+        "ahi": "$89,288",
+        "poverty": "19.1%",
+        "rural": "14.21%",
+        "suburban": "34.32%",
+        "urban": "51.47%",
+        "vote": "50.4% - 49.6%",
+        "geoid": "0905"
+      }
+    },
+    "ok": {
+      "1": {
+        "number": "1st",
+        "representative": "Kevin Hern",
+        "repParty": "Republican",
+        "repRace": "White",
+        "ahi": "$67,384",
+        "poverty": "52.3%",
+        "rural": "10.37%",
+        "suburban": "35.85%",
+        "urban": "53.78%",
+        "vote": "61% - 35%",
+        "geoid": "4001"
+      },
+      "2": {
+        "number": "2nd",
+        "representative": "Josh Brecheen",
+        "repParty": "Republican",
+        "repRace": "White",
+        "ahi": "$51,974",
+        "poverty": "32.5%",
+        "rural": "35.51%",
+        "suburban": "25.8%",
+        "urban": "38.69%",
+        "vote": "72% - 23%",
+        "geoid": "4002"
+      },
+      "3": {
+        "number": "3rd",
+        "representative": "Frank Lucas",
+        "repParty": "Republican",
+        "repRace": "White",
+        "ahi": "$56,616",
+        "poverty": "52.1%",
+        "rural": "49.29%",
+        "suburban": "20.28%",
+        "urban": "30.43%",
+        "vote": "74.5% - 25.4%",
+        "geoid": "4003"
+      },
+      "4": {
+        "number": "4th",
+        "representative": "Tom Cole",
+        "repParty": "Republican",
+        "repRace": "White",
+        "ahi": "$63,796",
+        "poverty": "20.2%",
+        "rural": "36.71%",
+        "suburban": "25.32%",
+        "urban": "37.97%",
+        "vote": "66.8% - 33.2%",
+        "geoid": "4004"
+      },
+      "5": {
+        "number": "5th",
+        "representative": "Stephanie Bice",
+        "repParty": "Republican",
+        "repRace": "White",
+        "ahi": "$72,813",
+        "poverty": "43.8%",
+        "rural": "12.47%",
+        "suburban": "35.01%",
+        "urban": "52.52%",
+        "vote": "59% - 37%",
+        "geoid": "4005"
+      }
+    }
+}

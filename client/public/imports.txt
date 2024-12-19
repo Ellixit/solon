@@ -1,0 +1,4 @@
+mongoimport --db solon -c connecticut_precinct --file "ct-precinct-data.json" --jsonArray
+mongoimport --db solon -c connecticut_district --file "ct-district-data.json" --jsonArray
+mongoimport --db solon -c connecticut_state --file "ct-state-data.json" --jsonArray
+
